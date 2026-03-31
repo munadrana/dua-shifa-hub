@@ -1,5 +1,4 @@
 import CategoryCard from "./CategoryCard";
-import CategoryCard from "./CategoryCard";
 import {
   Heart, Droplets, HandMetal, BookOpen, Landmark, Moon,
   Utensils, Plane, Stethoscope, Sunrise, ShieldCheck,
