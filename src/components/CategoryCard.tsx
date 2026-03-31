@@ -40,7 +40,7 @@ const CategoryCard = ({ number, title, duaCount, Icon, slug }: CategoryCardProps
         size={18}
         className="shrink-0 text-muted-foreground transition-transform group-hover:translate-x-1 group-hover:text-primary"
       />
-    </button>
+    </Link>
   );
 };
 
