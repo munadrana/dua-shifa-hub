@@ -56,13 +56,14 @@ const CardGrid = () => {
         দু'আর ক্যাটাগরিসমূহ
       </h2>
       <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-        {categories.map((cat, i) => (
+        {dataCategories.map((cat, i) => (
           <CategoryCard
-            key={cat.title}
+            key={cat.slug}
             number={i + 1}
             title={cat.title}
             duaCount={cat.duaCount}
-            Icon={cat.Icon}
+            Icon={iconMap[cat.slug] || BookOpen}
+            slug={cat.slug}
           />
         ))}
       </div>
