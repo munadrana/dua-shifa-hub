@@ -1,20 +1,20 @@
 import CategoryCard from "./CategoryCard";
+import CategoryCard from "./CategoryCard";
 import {
   Heart, Droplets, HandMetal, BookOpen, Landmark, Moon,
-  Utensils, Plane, Stethoscope, Star, CloudRain, Sunrise,
-  Users, Baby, Scale, Bed, Home, Gift, Compass, ShieldCheck,
+  Utensils, Plane, Stethoscope, Sunrise, ShieldCheck,
+  Bed, Home, Shirt, AlertTriangle, Scale, Compass, BookMarked,
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import { categories } from "@/data/duas";
 
 const iconMap: Record<string, LucideIcon> = {
   iman: Heart, taharat: Droplets, wudu: HandMetal, azan: BookOpen,
-  masjid: Landmark, "namaz-moddhe": Star, "namaz-sheshe": Sunrise,
-  "nofol-namaz": Moon, rabbana: ShieldCheck, "sokal-sondha": Compass,
-  durud: Gift, istighfar: Scale, khabar: Utensils, ghum: Bed,
-  basosthan: Home, sofor: Plane, poribar: Users, sajsojja: Baby,
-  samajikota: Users, bibhinno: BookOpen, sustho: Stethoscope,
-  "jhor-brishti": CloudRain, romjan: Moon, eid: Gift,
+  masjid: Landmark, namaz: Moon, "sokal-sondha": Sunrise,
+  khabar: Utensils, ghum: Bed, poshak: Shirt,
+  basosthan: Home, sofor: Plane, sustho: Stethoscope,
+  bipod: AlertTriangle, istighfar: Scale, rizik: Compass,
+  hajj: ShieldCheck, "quran-dua": BookMarked,
 };
 
 const CardGrid = () => {
