@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Search, Menu, X, Moon, Sun } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const navLinks = [
   { label: "হোম", href: "#" },
@@ -21,8 +22,8 @@ const Header = () => {
     <header className="sticky top-0 z-50 border-b bg-card/80 backdrop-blur-md">
       <div className="container mx-auto flex items-center justify-between px-4 py-3">
         {/* Logo */}
-        <a href="#" className="text-xl font-bold text-primary">
-          🤲 Dua Collection
+        <a href="#" className="flex items-center gap-2">
+          <img src={logo} alt="Dua Collection Logo" className="h-10 w-auto" />
         </a>
 
         {/* Desktop Nav */}
