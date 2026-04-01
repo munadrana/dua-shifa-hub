@@ -1,10 +1,12 @@
+import logo from "@/assets/logo.png";
+
 const Footer = () => {
   return (
     <footer className="border-t bg-card">
       <div className="container mx-auto grid gap-8 px-4 py-10 sm:grid-cols-3">
         {/* About */}
         <div>
-          <h4 className="mb-3 text-sm font-bold text-foreground">আমাদের সম্পর্কে</h4>
+          <img src={logo} alt="Dua Collection Logo" className="mb-3 h-16 w-auto" />
           <p className="text-sm leading-relaxed text-muted-foreground">
             Dua Collection একটি ইসলামিক দু'আ সংকলন প্ল্যাটফর্ম। এখানে আপনি প্রতিদিনের প্রয়োজনীয় দু'আ সহজে খুঁজে পাবেন এবং আমল করতে পারবেন।
           </p>
