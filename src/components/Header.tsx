@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Search, Menu, X, Moon, Sun } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const navLinks = [
   { label: "হোম", href: "#" },
