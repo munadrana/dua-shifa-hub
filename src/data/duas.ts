@@ -33,6 +33,7 @@ export const categories: Category[] = [
   { slug: "rizik", title: "রিযিক ও ঋণ মুক্তি", duaCount: 3 },
   { slug: "hajj", title: "হজ্জ ও উমরাহ", duaCount: 4 },
   { slug: "quran-dua", title: "কুরআন থেকে বাছাইকৃত দু'আ", duaCount: 6 },
+  { slug: "nirapotta", title: "নিরাপত্তার জন্য কুরআনের শক্তিশালী বাক্য", duaCount: 4 },
 ];
 
 export const duas: Dua[] = [
