@@ -14,6 +14,7 @@ const iconMap: Record<string, LucideIcon> = {
   basosthan: Home, sofor: Plane, sustho: Stethoscope,
   bipod: AlertTriangle, istighfar: Scale, rizik: Compass,
   hajj: ShieldCheck, "quran-dua": BookMarked,
+  nirapotta: ShieldCheck,
 };
 
 const CardGrid = () => {
